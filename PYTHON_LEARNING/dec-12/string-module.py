@@ -1,0 +1,12 @@
+      #print(string.ascii_letters)    #NameError: name 'string' is not defined
+
+
+import string
+print(dir(string))
+
+print(string.ascii_letters)
+print(string.ascii_lowercase)
+print(string.ascii_uppercase)
+print(string.digits)
+print(string.hexdigits)
+print(string.punctuation)
